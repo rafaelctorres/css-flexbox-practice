@@ -1,0 +1,68 @@
+.fullpage {
+  display: flex;
+  flex-direction: column;
+  padding-right: 18%;
+  padding-left:18%;
+}
+
+.header {
+  flex: 1;
+  gap:16px;
+  display: flex;
+  align-items:center;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.first-banner {
+  padding-top: 52px;
+  padding-bottom: 52px;
+  display: flex;
+  background-color:;
+}
+
+.title {
+  font-size:42px;
+}
+
+.text{
+  
+}
+.description-column{
+max-width:50%;
+width:50%;  
+}
+
+button {
+  cursor: pointer;
+}
+
+button.sign-up{
+  border-radius:8px;
+  padding:8px;
+  padding-right:24px;
+  padding-left:24px;
+  flex: 0 1 0;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.image-column{
+  background-color: gray;
+  width:400px;
+  flex:1;
+
+}
+
+a {
+  text-decoration: none;
+  color: #777777;
+}
+
+
+

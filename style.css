@@ -1,8 +1,9 @@
-.fullpage {
+.section-one {
   display: flex;
   flex-direction: column;
   padding-right: 18%;
   padding-left:18%;
+  background-color:#1f3b4d;
 }
 
 .header {
@@ -10,6 +11,7 @@
   gap:16px;
   display: flex;
   align-items:center;
+  background-color:#1f3b4d;
 }
 
 .logo {
@@ -22,23 +24,27 @@
   padding-top: 52px;
   padding-bottom: 52px;
   display: flex;
-  background-color:;
+  background-color:#1f3b4d;
 }
 
 .title {
   font-size:42px;
 }
 
-.text{
-  
+.first-banner .text{
+  margin-top:6px;
 }
+
 .description-column{
-max-width:50%;
-width:50%;  
+  color: #eeeeee;
+  padding-right:20px;
+  max-width:50%;
+  width:50%;  
 }
 
 button {
   cursor: pointer;
+  margin-top:12px;
 }
 
 button.sign-up{
@@ -53,6 +59,7 @@ button.sign-up{
 }
 
 .image-column{
+  padding-left:20px;
   background-color: gray;
   width:400px;
   flex:1;
@@ -61,8 +68,13 @@ button.sign-up{
 
 a {
   text-decoration: none;
-  color: #777777;
+  color: #cccccc;
 }
 
+/*commit message: 
 
+Add new div to color background
 
+Couldnt add color to whole background. Margins were also added to separate text from image's placeholder.
+
+*/

@@ -1,17 +1,25 @@
+
 .section-one {
+  flex:1;
   display: flex;
   flex-direction: column;
-  padding-right: 18%;
-  padding-left:18%;
   background-color:#1f3b4d;
+  margin-right:18%;
+  margin-left:18%;
 }
 
+.header-container{
+
+}
 .header {
+  gap:48px;
+  min-width: 610.26px;
+  max-width: 700px;
   flex: 1;
-  gap:16px;
   display: flex;
-  align-items:center;
-  background-color:#1f3b4d;
+  align-items: center;
+  background-color: #1f3b4d;
+  
 }
 
 .logo {
@@ -20,9 +28,18 @@
   font-weight: 600;
 }
 
+.links {
+  display:flex;
+  gap:16px;
+}
+
 .first-banner {
+  flex-shrink:1;
+  min-width:100px;
+  max-width:700px;
   padding-top: 52px;
   padding-bottom: 52px;
+  margin:auto;
   display: flex;
   background-color:#1f3b4d;
 }
@@ -47,7 +64,7 @@ button {
   margin-top:12px;
 }
 
-button.sign-up{
+button.sign-up {
   border-radius:8px;
   padding:8px;
   padding-right:24px;
@@ -58,12 +75,52 @@ button.sign-up{
   color: white;
 }
 
-.image-column{
+.image-column {
   padding-left:20px;
   background-color: gray;
   width:400px;
   flex:1;
+}
 
+.section-two {
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  background-color:#fefefe;
+  height:1000px;
+}
+
+.section-two .title{
+  margin-top:32px;
+  margin-bottom:32px;
+  font-size:28px;
+  font-weight:700;
+}
+
+.cards {
+  gap:32px;
+  display:flex;
+}
+
+.card {
+  display:flex;
+  flex: 1;
+  flex-direction:column;
+  width:100px;
+  align-items:center;
+}
+
+.card .image{
+  flex-grow:1;
+  border-radius:10px;
+  border: 3px solid lightblue;
+  width:100px;
+  height:100px;
+}
+
+.card .text{
+  font-size:14px;
+  color:#666666;
 }
 
 a {
@@ -71,10 +128,16 @@ a {
   color: #cccccc;
 }
 
+html {
+  display:flex;
+}
+
 /*commit message: 
 
 Add new div to color background
 
 Couldnt add color to whole background. Margins were also added to separate text from image's placeholder.
-
+html{
+  background-color: #1f3b4d;
+}
 */
